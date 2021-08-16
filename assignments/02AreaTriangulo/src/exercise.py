@@ -1,9 +1,9 @@
 def main():
     #escribe tu código abajo de esta línea
-    n1 = int(input('Dame la base: '))
-    n2 = int(input('Dame la altura: '))
+    b = float(input('Dame la base: '))
+    h = float(input('Dame la altura: '))
 
-    area= n1 * n2 / 2
+    area= (b * h) / 2
 
     print('El area es: '+str(area))
 
